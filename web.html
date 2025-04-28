@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Bio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> <!-- Montserrat font -->
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text color */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #1e1e1e; /* Darker container */
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e1306c;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 26px; /* Increased font size */
+            margin: 10px 0;
+        }
+        p {
+            color: #cccccc; /* Lighter text for bio */
+            font-size: 16px; /* Increased font size */
+            margin: 10px 0;
+        }
+        .links {
+            margin: 15px 0;
+        }
+        .links a {
+            display: block;
+            color: #e1306c;
+            text-decoration: none;
+            margin: 5px 0;
+            font-weight: 600; /* Bold links */
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #1e1e1e;
+            min-width: 160px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #e1306c;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-weight: 600; /* Bold dropdown links */
+        }
+        .dropdown-content a:hover {
+            background-color: #333333;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .social-icons {
+            margin-top: 15px;
+        }
+        .social-icons a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .social-icons a:hover {
+            color: #e1306c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://www.hindustantimes.com/ht-img/img/2023/12/15/1600x900/attachment-playboi-carti-2_1702637116862_1702637149342.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Your Name</h1>
+        <p>🌟 Corey made this. $40 for a website love pape!</p>
+        <div class="links">
+            <a href="https://yourwebsite.com" target="_blank">Your Website</a>
+            <a href="https://yourblog.com" target="_blank">Your Blog</a>
+            <a href="https://yourportfolio.com" target="_blank">Your Portfolio</a>
+        </div>
+        <div class="dropdown">
+            <button style="background-color: #e1306c; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; font-weight: 600;">More Options</button>
+            <div class="dropdown-content">
+                <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter
